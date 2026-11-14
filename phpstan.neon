@@ -1,0 +1,8 @@
+parameters:
+    level: max
+    treatPhpDocTypesAsCertain: false
+    paths:
+        - src
+        - demo
+        - conformance/src
+        - tests
