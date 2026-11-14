@@ -26,7 +26,7 @@ use UniversalCarrier\Core\Enum\TrackingStatus;
 /**
  * What the conformance kit cannot check generically, exercised on the reference drivers.
  *
- * The rules every driver owes are checked by the kit in conformance/, run against these same
+ * The rules every driver owes are checked by the kit, universal-carrier/conformance, run against these same
  * drivers from tests/Conformance. What remains here depends on knowing the driver's data - a
  * filter only means something when you know which points should survive it - or spans several
  * calls on one instance.

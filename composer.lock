@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "16adc071955880529380694891e42abe",
+    "content-hash": "717ca2690b4b63ba4c90fa674dd07ee9",
     "packages": [],
     "packages-dev": [
         {
@@ -1851,6 +1851,58 @@
                 }
             ],
             "time": "2025-11-17T20:03:58+00:00"
+        },
+        {
+            "name": "universal-carrier/conformance",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Universal-Carrier/conformance.git",
+                "reference": "1bc4dfa8de71c8677e8c0fd2790af1f4982852df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Universal-Carrier/conformance/zipball/1bc4dfa8de71c8677e8c0fd2790af1f4982852df",
+                "reference": "1bc4dfa8de71c8677e8c0fd2790af1f4982852df",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4",
+                "phpunit/phpunit": "^11.0",
+                "universal-carrier/core": "^0.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UniversalCarrier\\Conformance\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Debusschère",
+                    "email": "alexandre.debusschere@hey.com"
+                }
+            ],
+            "description": "PHPUnit test cases checking a Universal Carrier driver against the specification.",
+            "keywords": [
+                "carrier",
+                "conformance",
+                "phpunit",
+                "shipping",
+                "specification"
+            ],
+            "support": {
+                "issues": "https://github.com/Universal-Carrier/conformance/issues",
+                "source": "https://github.com/Universal-Carrier/conformance/tree/v0.1.0"
+            },
+            "time": "2026-11-14T15:09:02+00:00"
         }
     ],
     "aliases": [],
@@ -1862,5 +1914,5 @@
         "php": "^8.4"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }

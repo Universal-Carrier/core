@@ -443,7 +443,7 @@ class *and* implements the root interface, so a malformed `Address` never escape
 4. Read [`demo/`](demo) for a complete driver written the way a real one would be — request
    and response mapping, error translation, configuration-dependent options — against a
    simulated carrier API. Run it with `composer demo`.
-5. Run the conformance suite, [`universal-carrier/conformance`](conformance): one abstract
+5. Run the conformance suite, [`universal-carrier/conformance`](https://github.com/Universal-Carrier/conformance): one abstract
    PHPUnit test case per capability, which you extend with your sandbox configuration and a
    few shipments your carrier can book.
 6. Use [`tests/Fixture/InMemoryCarrier.php`](tests/Fixture/InMemoryCarrier.php) as a reference:

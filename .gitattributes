@@ -3,9 +3,7 @@
 /.github        export-ignore
 /.gitattributes export-ignore
 /.idea          export-ignore
-/conformance    export-ignore
 /demo           export-ignore
-/mondial-relay  export-ignore
 /tests          export-ignore
 /phpstan.neon   export-ignore
 /phpunit.xml    export-ignore

@@ -17,7 +17,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Alexandre Debussch\u00e8re",
+      "name": "Alexandre Debusschère",
       "email": "alexandre.debusschere@hey.com"
     }
   ],
@@ -29,8 +29,7 @@
   "autoload-dev": {
     "psr-4": {
       "Demo\\": "demo/",
-      "Tests\\": "tests/",
-      "UniversalCarrier\\Conformance\\": "conformance/src/"
+      "Tests\\": "tests/"
     }
   },
   "require": {
@@ -38,7 +37,8 @@
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
-    "phpunit/phpunit": "^11.0"
+    "phpunit/phpunit": "^11.0",
+    "universal-carrier/conformance": "^0.1"
   },
   "scripts": {
     "test": "phpunit",
@@ -51,5 +51,10 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
   }
 }

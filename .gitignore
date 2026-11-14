@@ -2,3 +2,7 @@
 /.phpunit.cache/
 /vendor/
 /.phpunit.result.cache
+
+# Sibling packages, cloned here from their own repositories for local work.
+/conformance/
+/mondial-relay/
